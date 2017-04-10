@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Family Organizer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <link rel="stylesheet" href="toDoList.css">
+  <link rel="shortcut icon" href="https://lh3.googleusercontent.com/T70O2stNzPVwBN1SaT-cWQwJSCsN7nefChWAyqAkDhctnEmpPicESrT6XPh8k3WM8ww=w300" type="image">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img src="https://lh3.googleusercontent.com/T70O2stNzPVwBN1SaT-cWQwJSCsN7nefChWAyqAkDhctnEmpPicESrT6XPh8k3WM8ww=w300" width="55" height="55" >
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="#">Головна</a></li>
+      <li><a href="#">Покупки</a></li>
+      <li><a href="#">Події</a></li>
+      <li><a href="#">Сіймейний альбом</a></li>
+      <li><a href="#">Улюблені рецепти</a></li>
+    </ul>
+       <ul class="nav navbar-nav navbar-right">
+      <li><a href="createProfile.html"><span class="glyphicon glyphicon-user"></span>Створити сімейний профіль</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Увійти</a></li>
+        </ul>
+  </div>
+</nav>
+
+<div id="myDIV" class="header">
+  <h2 style="margin:5px">Мій список справ</h2>
+  <input type="text" id="myInput" placeholder="Заголовок...">
+  <span onclick="newElement()" class="addBtn">Додати</span>
+</div>
+
+<ul id="myUL" class="myUl">
+  <li class="myLI">Сходити в спортзал</li>
+  <li class="myLI" class="checked">Сплатити чеки</li>
+  <li class="myLI">Зустрітися з Машею</li>
+  <li class="myLI">Прочитати книжку</li>
+</ul>
+    
+ <script type="text/javascript" src="toDoList.js"></script>
+
+</body>
+</html>
